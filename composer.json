@@ -1,6 +1,6 @@
 {
     "name": "scribu/lib-posts-to-posts",
-	"description": "A library for many-to-many relationships in WordPress",
+    "description": "A library for many-to-many relationships in WordPress",
     "homepage": "https://github.com/scribu/wp-lib-posts-to-posts",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
@@ -9,5 +9,11 @@
     },
     "autoload": {
         "files": ["autoload.php"]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jeff-lewis/wp-lib-posts-to-posts"
+        }
+    ]
 }
